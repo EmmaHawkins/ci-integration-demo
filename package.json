@@ -1,0 +1,24 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "page-model.js",
+  "scripts": {
+    "test": "testcafe chrome:headless tests/**/* -r xunit:/tmp/test-results/res.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmaHawkins/ci-integration-demo.git"
+  },
+  "devDependencies": {
+    "testcafe": "^0.18.4",
+    "testcafe-reporter-xunit": "^2.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmaHawkins/ci-integration-demo/issues"
+  },
+  "homepage": "https://github.com/EmmaHawkins/ci-integration-demo#readme"
+}
